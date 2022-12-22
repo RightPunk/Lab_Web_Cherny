@@ -1,0 +1,84 @@
+
+main{
+    padding: 60px;
+    background-color: #F3F3F3;
+}
+
+.h3{
+    font-weight: 777;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(17, 34, 68, 0.5);
+    margin-bottom: 4px;
+}
+
+#select, #titel, #text{
+    width: 100%;
+    padding: 24px;    
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #112244;
+    background-color: transparent;
+}
+
+.img input{
+    position: absolute;
+    width: 362px;
+    height: 60px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file_input{
+    width: 362px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #624C90;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #624C90;
+}
+
+.file_input img{
+    margin-right: 10px;
+}
+
+.button button{
+    padding: 20px 40px;
+    gap: 10px;
+    width: 186px;
+    height: 58px;
+    background: #624C90;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+}

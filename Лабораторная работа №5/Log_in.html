@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
+    <title>№5</title>
+</head>
+<body>
+    <header>
+        <img src="./material/BlogLogo.png" alt="">
+        <div class="ssilka">
+            <a href="#" class="user">
+                <img src="./material/Profile.png" alt="">
+                <span>@UserAccountLogin</span>
+            </a>
+            <a href="#" class="new-pos">Новая запись</a>
+            <a href="#" class="exit">Выйти</a>
+        </div>
+    </header>
+    <main>
+        <div class="h3">
+            Регистрация
+        </div>
+        <form action="post" class="post" method="">
+            <div class="line-1">
+                <div class="block block-1-1">
+                    <label for="name">Имя</label>
+                    <input class="input" type="text" id="name">
+                </div>
+                <div class="block block-2-1">
+                    <label for="first-name">Фамилия</label>
+                    <input class="input" type="text" id="first-name">
+                </div>
+            </div>
+            <div class="line-2">
+                <div class="block block-1-2">
+                    <label for="name">Логин *</label>
+                    <input class="input" type="text" id="login">
+                    <div class="err errors-log">
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Только буквы, цифры и символы @.+-_</span>
+                        </div>
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Не более 150 символов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block block-2-2">
+                    <label for="e_mail">E-mail</label>
+                    <input class="input" type="email" id="e_mail">
+                </div>
+            </div>
+            <div class="line-3">
+                <div class="block block-1-3">
+                    <label for="pass">Пароль *</label>
+                    <input class="input" type="password" id="pass">
+                    <div class="errors-pass">
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Минимум 8 символов</span>
+                        </div>
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Не может состоять только из цифр</span>
+                        </div>
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Не должен совпадать с логином</span>
+                        </div>
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Не должен быть в базе популярных паролей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block block-2-3">
+                    <label for="verification">Подтверждение пароля*</label>
+                    <input class="input" type="password" id="verification">
+                    <div class="err errors-ver">
+                        <div class="iteam-err">
+                            <div class="icon red"></div><span class="text red-text">Пароли не совпадают</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="check_box">                
+                <input type="checkbox" id="checkbox" checked required title="Ну согласись пж)">
+                <label for="checkbox">Даю своё согласие на обработку персональных данных</label>
+            </div>
+            <div class="button">
+                <button type="submit">
+                    Зарегистрироваться
+                </button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="ssilka_foot">
+            <a href="#" class="foot-a">Об авторе</a>
+            <a href="#" class="foot-a">Технологии</a>
+        </div>
+        <div class="foot-text">
+            © Blog, 2022
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

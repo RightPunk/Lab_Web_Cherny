@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="main.css">
+    <title>№5</title>
+</head>
+<body>
+    <header>
+        <img src="./material/BlogLogo.png" alt="">
+        <div class="ssilka">
+            <a href="#" class="user">
+                <img src="./material/Profile.png" alt="">
+                <span>@UserAccountLogin</span>
+            </a>
+            <a href="#" class="new-pos">Новая запись</a>
+            <a href="#" class="exit">Выйти</a>
+        </div>
+    </header>
+    <main>
+        <div class="h3">
+            Добавить запись
+        </div>
+        <form action="post" class="post" method="">
+            <div class="input">
+                <label for="titel">Заголовок</label>
+                <input type="text" id="titel" maxlength="255" value="Нестандартное подчёркивание текста на чистом CSS. Свойство text-decoration">
+            </div>
+            
+            <div>
+            <label for="text">Текст</label>
+                <textarea name="textarea" id="text" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur impedit fugit deleniti, totam aspernatur quia laboriosam autem distinctio iste? Omnis possimus corporis illo consequuntur porro necessitatibus! Aliquid, iste fugit?
+                Minima inventore adipisci iusto blanditiis suscipit voluptate minus ipsa aspernatur veritatis repudiandae magni, quidem quos eaque harum rem cum labore ipsam! Laboriosam quas provident ex iste id consequatur at ut.
+                Aspernatur ullam dolorum nisi fugiat numquam, non natus suscipit nihil, ipsam debitis hic, accusantium provident modi facilis in consequuntur deleniti reiciendis magnam voluptates. Velit repudiandae quibusdam beatae amet magni neque.
+                Soluta, nemo. Porro sapiente distinctio vel quaerat quasi maiores expedita suscipit iste praesentium rem iure repellendus deleniti dolore incidunt vitae, voluptate adipisci, quas ipsum delectus blanditiis consectetur reiciendis voluptas. Deserunt.
+                Facilis veniam vel ducimus, delectus ipsam ad esse est ex perferendis atque dolor quae hic quibusdam modi accusantium aut blanditiis ratione in quos consectetur deserunt qui. Fugiat aliquam porro sint?</textarea>
+            </div>
+            <div>
+            <label for="select">Выберите категорию</label>
+                <select name="kategoria" id="select">
+                            <option value="0" >Без категории</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">Т3</option>
+                </select>
+            </div>
+                <div class="img">
+                    <input type="file" name="img" id="img"multiple accept="image/*">
+                    <div class="file_input">
+                        <img src="./material/Vector (Stroke).png" alt="">
+                        <p>Прикрепить файл изображения</p>
+                    </div>
+                </div>
+                <div class="button">
+                <button type="submit">
+                    Опубликовать
+                </button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="ssilka_foot">
+            <a href="#" class="foot-a">Об авторе</a>
+            <a href="#" class="foot-a">Технологии</a>
+        </div>
+        <div class="foot-text">
+            © Blog, 2022
+        </div>
+    </footer>
+</body>
+</html>
