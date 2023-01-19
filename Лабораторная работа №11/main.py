@@ -8,10 +8,10 @@ class Solution:
         return a
 
     def get_leader_string(self, steps: int) -> str:
-        strok = ''
+        string = ''
         for i in range(steps):
-            strok += ((steps - (i + 1)) * ' ') + ('#' * (i + 1) + '\n')
-        return strok
+            string += ((steps - (i + 1)) * ' ') + ('#' * (i + 1) + '\n')
+        return string
         pass
 
     def to_json(self, func):
